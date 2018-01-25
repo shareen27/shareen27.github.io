@@ -58,6 +58,15 @@
 	}
 
 /* Grid */
+	#header{
+		background-color: rgba(255, 255, 255, 0.25);
+    	box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.25), 0 0 0.5em 0 #FF6382;
+	}
+
+	#header h3{
+		font-weight: bold;
+		font-family: monospace;
+	}
 	.coverphoto img{
 		width: 100%;
 		height: auto;
@@ -66,6 +75,18 @@
 	.coverphoto h3 {
 		font-weight: bold;
 		font-family: monospace;
+		font-size: 24px;
+	}
+
+	.essay h3{
+		margin: 20px 0;
+		font-weight: bold;
+		font-family: monospace;
+	}
+
+	.essay{
+		border-top: solid 5px white;
+		border-bottom: solid 5px white;
 	}
 	.row {
 		border-bottom: solid 1px transparent;
