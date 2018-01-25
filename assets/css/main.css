@@ -59,7 +59,6 @@
 
 /* Grid */
 	#header{
-		padding: 15px;
 		background-color: rgba(255, 255, 255, 0.25);
     	box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.25), 0 0 0.5em 0 #FF6382;
 	}
@@ -2616,7 +2615,7 @@
 
 	#header {
 		text-align: center;
-		padding: 6em 0 4em 0;
+		padding: 6em 20px 4em 20px;
 	}
 
 		#header h1 {
@@ -2641,7 +2640,7 @@
 		@media screen and (max-width: 1280px) {
 
 			#header {
-				padding: 4em 0 2em 0;
+				padding: 4em 20px 2em 20px;
 			}
 
 		}
